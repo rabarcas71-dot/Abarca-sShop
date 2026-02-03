@@ -1,13 +1,55 @@
 <html>
     <head>
-        <meta name="description" content="variedad de artículos de segunda mano">
-        <meta name="keywords" content="segunda mano, precios bajos, mas barato, herramientas, repuestos, peces koi, mascotas">
-        
          <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="stylesheet" href="styles.css">
-<title> ABARCA'S SHOP </title>
-<style> footer {
+    <meta name="description" content="Variedad de artículos de segunda mano a precios accesibles.">
+    <meta name="keywords" content="segunda mano, precios bajos, herramientas, repuestos, peces koi, mascotas">
+    <link rel="stylesheet" href="styles.css">
+    <title>Abarca's Shop</title>
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #35424a;
+            color: #ffffff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .product-card {
+            background: #ffffff;
+            border: 1px solid #dddddd;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin: 10px;
+            flex: 1 1 calc(25% - 20px);
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .product-card:hover {
+            transform: scale(1.05);
+        }
+        img {
+            width: 50%;
+            height: auto;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+        footer {
             text-align: center;
             padding: 20px 0;
             background: #35424a;
@@ -16,17 +58,7 @@
             bottom: 0;
             width: 100%;
         }
-
-             .container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            max-width: 800px;
-            margin: auto;
-        }
-        
-        
-</style>
+    </style>
     <center><img src="img/Screenshot 2026-01-21 203146.jpg"</center>
     </head>
     <body background="img\colorbg.jpg" bgcolor="#ffffff"  text="000000" ><p>
@@ -35,58 +67,64 @@
         </h3>
        
 
-        <table border="3" bgcolor="#9AE630">
-            <tr>
-            <td>
-                <font face="arial bold"/font face>
-                   <a href="herramientas.html">
-        <img src="IMG/HERRAMIENTAS.jpg" alt="Para el mal olor" style="width:300px;height:auto;"/></center>
-        <p>HERRAMIENTAS</p>
-        
-</td>
-            <td> <a href="zapateria.html">
-        <img src="IMG\depositphotos_10321235-stock-photo-male-fashion-with-shoes-on.jpg" alt="Para el mal olor" style="width:300px;height:auto;" /></center>
-        <p>ZAPATERIA</p></td>
+        <header>
+    <h1>Abarca's Shop</h1>
+    <p>Variedad de artículos de segunda mano a precios accesibles.</p>
+</header>
 
-           
-         <td><a href="jugueteria.html">
-        <img src="IMG\jugueteria.jpg" alt="Para el mal olor" style="width:300px;height:auto;" /></center>
-        <p>JUGUETERIA</p></td>
-        
-
-         <td><a href="repuestos.html">
-        <img src= "IMG\Repuestos.jpg" alt="Para el mal olor" style="width:275px;height:auto;" /></center>
-        <p>REPUESTOS</p></tr>
-        
-        
-        
-            <td><a href="informacion_fotografia.html">
-        <img src="img/IMG_20260121_131626.jpg" alt="Para el mal olor" style="width:300px;height:auto;" /></center>
-        <p>Descripcion de el Articulo 5</p>
-        <p>Para el mal olor</p>
-        <p>Precio: $10</p>
-</td>
-            <td><a href="informacion_fotografia.html">
-        <img src="img/IMG_20260121_131626.jpg" alt="Para el mal olor" style="width:300px;height:auto;" /></center>
-        <p>Descripcion de el Articulo 6</p>
-        <p>Para el mal olor</p>
-        <p>Precio: $10</p></td>
-           
-         <td><a href="informacion_fotografia.html">
-        <img src="img/IMG_20260121_131626.jpg" alt="Para el mal olor" style="width:300px;height:auto;" /></center>
-        <p>Descripcion de el Articulo 7</p>
-        <p>Para el mal olor</p>
-        <p>Precio: $10</p></td>
-        
-         <td><a href="informacion_fotografia.html">
-        <img src="img/IMG_20260121_131626.jpg" alt="Para el mal olor" style="width:300px;height:auto;" /></center>
-        <p>Descripcion de el Articulo 8</p>
-        <p>Para el mal olor</p>
-        <p>Precio: $10</p></td>
-        </tr>
-        
-
-    </table>
+<div class="container">
+    <div class="product-card">
+        <a href="herramientas.html">
+            <img src="IMG/HERRAMIENTAS.jpg" alt="Herramientas">
+            <h3>HERRAMIENTAS</h3>
+        </a>
+    </div>
+    <div class="product-card">
+        <a href="zapateria.html">
+            <img src="IMG/depositphotos_10321235-stock-photo-male-fashion-with-shoes-on.jpg" alt="Zapatería">
+            <h3>ZAPATERÍA</h3>
+        </a>
+    </div>
+    <div class="product-card">
+        <a href="jugueteria.html">
+            <img src="IMG/jugueteria.jpg" alt="Juguetería">
+            <h3>JUGUETERÍA</h3>
+        </a>
+    </div>
+    <div class="product-card">
+        <a href="repuestos.html">
+            <img src="IMG/Repuestos.jpg" alt="Repuestos">
+            <h3>REPUESTOS</h3>
+        </a>
+    </div>
+    <div class="product-card">
+        <a href="peceskoi.html">
+            <img src="IMG/KOI.jpg" alt="Peces Koi">
+            <h3>PECES KOI</h3>
+        </a>
+    </div>
+    <div class="product-card">
+        <a href="informacion_fotografia.html">
+            <img src="img/IMG_20260121_131626.jpg" alt="Artículo 6">
+            <h3>Descripción de Artículo 6</h3>
+            <p>Precio: $10</p>
+        </a>
+    </div>
+    <div class="product-card">
+        <a href="informacion_fotografia.html">
+            <img src="img/IMG_20260121_131626.jpg" alt="Artículo 7">
+            <h3>Descripción de Artículo 7</h3>
+            <p>Precio: $10</p>
+        </a>
+    </div>
+    <div class="product-card">
+        <a href="informacion_fotografia.html">
+            <img src="img/IMG_20260121_131626.jpg" alt="Artículo 8">
+            <h3>Descripción de Artículo 8</h3>
+            <p>Precio: $10</p>
+        </a>
+    </div>
+</div>
     
     
     <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@lacabanapz/video/7428023052497308934" data-video-id="7428023052497308934" style="max-width: 605px;min-width: 325px;" > 
@@ -99,7 +137,7 @@
     <a href="mailto:rabarcas71@gmail.com"><img src="Menu\8ec98005-9156-4117-87b4-e8e097918265.svg"></a>
 </section>
 <a href="index.htlm">Inicio</a> -
-<a href="nosotros.html">Nosotros</a>
+<a href="index.html">Nosotros</a>
  <footer>
         <p>&copy; 2026 Tienda de Artículos de Segunda Mano</p>
     </footer>
