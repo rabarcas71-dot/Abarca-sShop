@@ -1,0 +1,407 @@
+<html>
+<head>
+    <title>Jugueteria</title>
+
+</head>
+
+<body>
+    <img src="IMG\jugueteria.jpg" alt="Para el mal olor" style="width:300px;height:auto;" /></center>
+        <p>Jugueteria</p>
+        <p>Descripcion de el Articulo</p>
+        <p>Para el mal olor</p>
+        <p>Precio: $10</p></td>
+       
+
+  </body>
+</html>
+<html>
+<head>
+    <title>Peces Koi</title>
+
+</head>
+
+<body>
+    <img src="C:\Users\WORK\Desktop\Fotos tienda\tienda\img\img\KOI.jpg" alt= style="width:300px;height:auto;" /></center>
+        <p>Peces Koi</p>
+        <p>Descripcion de el Articulo</p>
+        <p></p>
+        <p>Precio:</p></td>
+       
+
+  </body>
+</html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tabla Elegante</title>
+</head>
+<body>
+    <div class="tabla-container">
+        <table class="tabla-elegante">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Edad</th>
+                    <th>Ciudad</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ana</td>
+                    <td>28</td>
+                    <td>Madrid</td>
+                </tr>
+                <tr>
+                    <td>Juan</td>
+                    <td>34</td>
+                    <td>Barcelona</td>
+                </tr>
+                <tr>
+                    <td>Laura</td>
+                    <td>22</td>
+                    <td>Valencia</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
+
+<html>
+<head>
+    <title>Repuestos</title>
+
+</head>
+
+<body>
+    <img src="IMG\Repuestos.jpg" alt="Para el mal olor" style="width:300px;height:auto;" /></center>
+        <p>Repuestos</p>
+        <p>Descripcion de el Articulo</p>
+        <p>Para el mal olor</p>
+        <p>Precio: $10</p></td>
+       
+
+  </body>
+</html>
+.product-card {
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin: 10px;
+    flex: 1 1 calc(25% - 20px);
+    text-align: center;
+    transition: transform 0.3s; /* Transición suave */
+}
+
+.product-card:hover {
+    transform: scale(1.05); /* Aumenta el tamaño al pasar el mouse */
+}
+  <style>
+    img {
+      width: 200px;
+      height: 150px;
+      object-fit: cover;
+    }
+  </style>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Varios</title>
+    <style>
+        img {
+            width: 375px;
+            height: 600px;
+            object-fit: cover;
+            margin-right: 10px; /* espacio entre imágenes */
+        }
+    </style>
+</head>
+<body>
+    <img src="C:\Users\WORK\Desktop\Fotos tienda\tienda\img\img\IMG_20260208_145101.jpg" alt="Foto 1">
+    <img src="C:\Users\WORK\Desktop\Fotos tienda\tienda\img\img\IMG_20260208_145123.jpg" alt="Foto 2">
+
+    
+    <p>Descripción del Artículo</p>
+    <p>Bissell Steam Shot Deluxe</p>
+    <p>Un limpiador a vapor de mano.</p>
+    <p>Es un aparato compacto que funciona con vapor caliente para limpiar y desinfectar superficies sin necesidad de químicos.</p>
+    <p>Se usa mucho en baños, cocinas, ventanas, tapicería y rincones difíciles de alcanzar.</p>
+    <p>El vapor ayuda a eliminar grasa, suciedad y bacterias, ideal para limpieza profunda en el hogar.</p>
+    <p>Precio:</p>
+    <style>
+        img {
+            width: 375px;
+            height: 600px;
+            object-fit: cover;
+            margin-right: 10px; /* espacio entre imágenes */
+        }
+    </style>
+</head>
+<body>
+    <img src="C:\Users\WORK\Desktop\Fotos tienda\tienda\img\img\IMG_20260208_145225.jpg" alt="Foto 1">
+    <img src="C:\Users\WORK\Desktop\Fotos tienda\tienda\img\img\IMG_20260208_145441.jpg" alt="Foto 2">
+    
+
+    
+    <p>Descripción del Artículo</p>
+    <p>Tapete Ophanie Area Rug.</p>
+    <p> Tapete decorativo y cómodo para interiores, pensado para dar un ambiente acogedor en casa.</p>
+    <p>- Suave al tacto, cálido, bonito y amigable con la piel
+
+    <p>Precio:</p>
+    <style>
+        img {
+            width: 375px;
+            height: 600px;
+            object-fit: cover;
+            margin-right: 10px; /* espacio entre imágenes */
+        }
+    </style>
+</head>
+<body>
+    <img src="C:\Users\WORK\Desktop\Fotos tienda\tienda\img\img\IMG_20260208_145544.jpg" alt="Foto 1">
+    
+
+    
+    <p>Descripción del Artículo</p>
+    <p>Rastrillo para mascotas</p>
+    <p> Diseñado para quitar nudos, enredos y exceso de pelo del pelaje.</p>
+    <p>- Es muy útil en perros y gatos de pelo largo, porque ayuda a mantener el pelaje limpio y reduce la caída de pelo en la casa.</p>
+<p>Precio:</p>
+</body>
+</html>
+
+<html>
+<head>
+    <title>Zapateria</title>
+
+</head>
+
+<body>
+    <img src="IMG\depositphotos_10321235-stock-photo-male-fashion-with-shoes-on.jpg" alt="Para el mal olor" style="width:300px;height:auto;" /></center>
+        <p>ZAPATERIA</p>
+        <p>Descripcion de el Articulo</p>
+        <p>Para el mal olor</p>
+        <p>Precio: $10</p></td>
+       
+
+  </body>
+</html>
+<html>
+<head>
+    <title>Herramientas</title>
+
+</head>
+
+<body>
+    <img src="IMG/HERRAMIENTAS.jpg" alt="Para el mal olor" style="width:300px;height:auto;" /></center>
+        <p>Descripcion de el Articulo 2</p>
+        <p>Para el mal olor</p>
+        <p>Precio: $10</p></td>
+
+  </body>
+</html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Variedad de artículos de segunda mano a precios accesibles.">
+    <meta name="keywords" content="segunda mano, precios bajos, herramientas, repuestos, peces koi, mascotas">
+    <title>Abarca's Shop</title>
+     <link rel="stylesheet" href="styles.css">
+
+
+    <!-- Estilos principales -->
+    <style>
+        
+        * { box-sizing: border-box; }
+        body {
+            font-family: "Segoe UI", Arial, sans-serif;
+            margin: 0;
+            
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        
+        header {
+            background: #1f2d36;
+            color: #fff;
+            padding: 30px 15px;
+            text-align: center;
+        }
+        header h1 { margin: 0; }
+        header p { margin-top: 8px; font-size: 1rem; }
+
+        .hero {
+            text-align: center;
+            padding: 20px;
+            background: #ffffff;
+        }
+        .hero img {
+            max-width: 220px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+        .product-card {
+            background: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+            text-align: center;
+            transition: transform 0.2s, box-shadow 0.2s;
+            overflow: hidden;
+        }
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 15px rgba(0,0,0,0.12);
+        }
+        .product-card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+        .product-card h3 {
+            margin: 15px 10px 5px;
+            font-size: 1.1rem;
+        }
+        .product-card p {
+            margin: 0 0 15px;
+            font-weight: bold;
+            color: #1f7a4f;
+        }
+        .product-card a {
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+
+        .payment {
+            background: #ffffff;
+            padding: 30px 20px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .payment h2 { margin-bottom: 15px; }
+        .payment img { width: 60px; margin: 10px; }
+
+        footer {
+            background: #1f2d36;
+            color: #fff;
+            text-align: center;
+            padding: 20px 10px;
+            margin-top: 30px;
+        }
+
+        .contacto {
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Abarca's Shop</h1>
+    <p>Artículos de segunda mano revisados y a precios accesibles</p>
+</header>
+
+<section class="hero">
+    <img src="img\img\Screenshot 2026-01-21 203146.jpg" alt="Logo de la tienda">
+    <p>Todos nuestros productos están en buenas condiciones y listos para usar.</p>
+</section>
+
+<section class="container">
+    <div class="product-card">
+        <a href="herramientas.html">
+            <img src="C:\Users\WORK\Desktop\Fotos tienda\tienda\img\img\HERRAMIENTAS.jpg" alt="Herramientas">
+            <h3>Herramientas</h3>
+        </a>
+    </div>
+    <div class="product-card">
+        <a href="zapateria.html">
+            <img src="C:\Users\WORK\Desktop\Fotos tienda\tienda\img\img\depositphotos_10321235-stock-photo-male-fashion-with-shoes-on.jpg" alt="Zapatería">
+            <h3>Zapatería</h3>
+        </a>
+    </div>
+    <div class="product-card">
+        <a href="jugueteria.html">
+            <img src="C:\Users\WORK\Desktop\Fotos tienda\tienda\img\img\jugueteria.jpg" alt="Juguetería">
+            <h3>Juguetería</h3>
+        </a>
+    </div>
+    <div class="product-card">
+        <a href="repuestos.html">
+            <img src="C:\Users\WORK\Desktop\Fotos tienda\tienda\img\img\Repuestos.jpg" alt="Repuestos">
+            <h3>Repuestos</h3>
+        </a>
+    </div>
+    <div class="product-card">
+        <a href="peceskoi.html">
+            <img src="C:\Users\WORK\Desktop\Fotos tienda\tienda\img\img\KOI.jpg" alt="Peces Koi">
+            <h3>Peces Koi</h3>
+        </a>
+    </div>
+    <div class="product-card">
+        <a href="Varios.html">
+            <img src="C:\Users\WORK\Desktop\Fotos tienda\tienda\img\img\Varios.jpg" alt="VARIOS">
+            <h3>Varios</h3>
+        </a>
+    </div>
+</section>
+
+<!-- Forma de pago -->
+<section class="payment">
+    <h2>Formas de pago</h2>
+    <p>Aceptamos los siguientes métodos de pago:</p>
+
+    <div style="display:flex; justify-content:center; gap:30px; flex-wrap:wrap; margin-top:20px;">
+        <div>
+            <svg width="60" height="60" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="2" y="6" width="20" height="12" rx="2" stroke="#1f7a4f" stroke-width="2"/>
+                <circle cx="12" cy="12" r="3" stroke="#1f7a4f" stroke-width="2"/>
+            </svg>
+            <p>Efectivo</p>
+        </div>
+
+        <div>
+            <svg width="60" height="60" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="5" y="2" width="14" height="20" rx="2" stroke="#1f7a4f" stroke-width="2"/>
+                <path d="M9 18h6" stroke="#1f7a4f" stroke-width="2"/>
+                <circle cx="12" cy="15" r="1" fill="#1f7a4f"/>
+            </svg>
+            <p>SINPE Móvil</p>
+        </div>
+
+        <div>
+            <svg width="60" height="60" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3 10h18M5 6h14M5 14h14M5 18h14" stroke="#1f7a4f" stroke-width="2"/>
+            </svg>
+            <p>Transferencia bancaria</p>
+        </div>
+    </div>
+</section>
+
+<section class="contacto" id="contacto">
+    <p>¿Tienes alguna pregunta? Escríbenos:</p>
+    <a href="mailto:rabarcas71@gmail.com">rabarcas71@gmail.com</a>
+</section>
+
+<footer>
+    <p>&copy; 2026 Abarca's Shop · Todos los derechos reservados</p>
+</footer>
+
+</body>
+</html>
