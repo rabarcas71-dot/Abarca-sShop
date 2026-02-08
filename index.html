@@ -1,155 +1,199 @@
-<html>
-    <head>
-         <meta charset="UTF-8">
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Variedad de artículos de segunda mano a precios accesibles.">
     <meta name="keywords" content="segunda mano, precios bajos, herramientas, repuestos, peces koi, mascotas">
-    <link rel="stylesheet" href="styles.css">
     <title>Abarca's Shop</title>
-<style>
+     <link rel="stylesheet" href="styles.css">
+
+
+    <!-- Estilos principales -->
+    <style>
+        
+        * { box-sizing: border-box; }
         body {
-            font-family: Arial, sans-serif;
+            font-family: "Segoe UI", Arial, sans-serif;
             margin: 0;
-            padding: 0;
+            
             background-color: #f4f4f4;
+            color: #333;
         }
+        
         header {
-            background: #35424a;
-            color: #ffffff;
-            padding: 20px 0;
+            background: #1f2d36;
+            color: #fff;
+            padding: 30px 15px;
             text-align: center;
         }
-        h1 {
-            margin: 0;
+        header h1 { margin: 0; }
+        header p { margin-top: 8px; font-size: 1rem; }
+
+        .hero {
+            text-align: center;
+            padding: 20px;
+            background: #ffffff;
         }
+        .hero img {
+            max-width: 220px;
+        }
+
         .container {
             max-width: 1200px;
             margin: auto;
             padding: 20px;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
         }
         .product-card {
             background: #ffffff;
-            border: 1px solid #dddddd;
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-            margin: 10px;
-            flex: 1 1 calc(25% - 20px);
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.08);
             text-align: center;
-            transition: transform 0.3s;
+            transition: transform 0.2s, box-shadow 0.2s;
+            overflow: hidden;
         }
         .product-card:hover {
-            transform: scale(1.05);
+            transform: translateY(-5px);
+            box-shadow: 0 6px 15px rgba(0,0,0,0.12);
         }
-        img {
-            width: 35%;
-            height: auto;
-            border-top-left-radius: 5px;
-            border-top-right-radius: 5px;
-        }
-        footer {
-            text-align: center;
-            padding: 20px 0;
-            background: #35424a;
-            color: #ffffff;
-            position: relative;
-            bottom: 0;
+        .product-card img {
             width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+        .product-card h3 {
+            margin: 15px 10px 5px;
+            font-size: 1.1rem;
+        }
+        .product-card p {
+            margin: 0 0 15px;
+            font-weight: bold;
+            color: #1f7a4f;
+        }
+        .product-card a {
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+
+        .payment {
+            background: #ffffff;
+            padding: 30px 20px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .payment h2 { margin-bottom: 15px; }
+        .payment img { width: 60px; margin: 10px; }
+
+        footer {
+            background: #1f2d36;
+            color: #fff;
+            text-align: center;
+            padding: 20px 10px;
+            margin-top: 30px;
+        }
+
+        .contacto {
+            text-align: center;
+            padding: 20px;
         }
     </style>
-    <center><img src="img/Screenshot 2026-01-21 203146.jpg"</center>
-    </head>
-    <body background="img\colorbg.jpg" bgcolor="#ffffff"  text="000000" ><p>
-        <h3> <font color="#000000" face="malgun gothic"/font>En nuestra tienda, ofrecemos una variedad de artículos de segunda mano a precios accesibles.
-        <p>Todos nuestros productos son revisados y en buenas condiciones.</p>
-        </h3>
-       
+</head>
 
-        <header>
+<body>
+
+<header>
     <h1>Abarca's Shop</h1>
-    <p>Variedad de artículos de segunda mano a precios accesibles.</p>
+    <p>Artículos de segunda mano revisados y a precios accesibles</p>
 </header>
 
-<div class="container">
+<section class="hero">
+    <img src="img\img\Screenshot 2026-01-21 203146.jpg" alt="Logo de la tienda">
+    <p>Todos nuestros productos están en buenas condiciones y listos para usar.</p>
+</section>
+
+<section class="container">
     <div class="product-card">
         <a href="herramientas.html">
-            <img src="IMG/HERRAMIENTAS.jpg" alt="Herramientas">
-            <h3>HERRAMIENTAS</h3>
+            <img src="C:\Users\WORK\Desktop\Fotos tienda\tienda\img\img\HERRAMIENTAS.jpg" alt="Herramientas">
+            <h3>Herramientas</h3>
         </a>
     </div>
     <div class="product-card">
         <a href="zapateria.html">
-            <img src="IMG/depositphotos_10321235-stock-photo-male-fashion-with-shoes-on.jpg" alt="Zapatería">
-            <h3>ZAPATERÍA</h3>
+            <img src="C:\Users\WORK\Desktop\Fotos tienda\tienda\img\img\depositphotos_10321235-stock-photo-male-fashion-with-shoes-on.jpg" alt="Zapatería">
+            <h3>Zapatería</h3>
         </a>
     </div>
     <div class="product-card">
         <a href="jugueteria.html">
-            <img src="IMG/jugueteria.jpg" alt="Juguetería">
-            <h3>JUGUETERÍA</h3>
+            <img src="C:\Users\WORK\Desktop\Fotos tienda\tienda\img\img\jugueteria.jpg" alt="Juguetería">
+            <h3>Juguetería</h3>
         </a>
     </div>
     <div class="product-card">
         <a href="repuestos.html">
-            <img src="IMG/Repuestos.jpg" alt="Repuestos">
-            <h3>REPUESTOS</h3>
+            <img src="C:\Users\WORK\Desktop\Fotos tienda\tienda\img\img\Repuestos.jpg" alt="Repuestos">
+            <h3>Repuestos</h3>
         </a>
     </div>
     <div class="product-card">
         <a href="peceskoi.html">
-            <img src="IMG/KOI.jpg" alt="Peces Koi">
-            <h3>PECES KOI</h3>
+            <img src="C:\Users\WORK\Desktop\Fotos tienda\tienda\img\img\KOI.jpg" alt="Peces Koi">
+            <h3>Peces Koi</h3>
         </a>
     </div>
     <div class="product-card">
-        <a href="informacion_fotografia.html">
-            <img src="img/IMG_20260121_131626.jpg" alt="Artículo 6">
-            <h3>Descripción de Artículo 6</h3>
-            <p>Precio: $10</p>
+        <a href="Varios.html">
+            <img src="C:\Users\WORK\Desktop\Fotos tienda\tienda\img\img\Varios.jpg" alt="VARIOS">
+            <h3>Varios</h3>
         </a>
     </div>
-    <div class="product-card">
-        <a href="informacion_fotografia.html">
-            <img src="img/IMG_20260121_131626.jpg" alt="Artículo 7">
-            <h3>Descripción de Artículo 7</h3>
-            <p>Precio: $10</p>
-        </a>
-    </div>
-    <div class="product-card">
-        <a href="informacion_fotografia.html">
-            <img src="img/IMG_20260121_131626.jpg" alt="Artículo 8">
-            <h3>Descripción de Artículo 8</h3>
-            <p>Precio: $10</p>
-        </a>
-    </div>
-</div>
-    
-    
-    <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@lacabanapz/video/7428023052497308934" data-video-id="7428023052497308934" style="max-width: 605px;min-width: 325px;" > 
-        <section> <a target="_blank" title="@lacabanapz" href="https://www.tiktok.com/@lacabanapz?refer=embed">@lacabanapz</a> <p>Luna llena en La Cabaña</p> 
-            <a target="_blank" title="♬ sonido original - lacabanapz" href="https://www.tiktok.com/music/sonido-original-7428023072688048901?refer=embed">
-        ♬ sonido original - lacabanapz</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
-     
-    <section id="contacto">
-    <p>Si tienes alguna pregunta, no dudes en escribirme a:</p>
-    <a href="mailto:rabarcas71@gmail.com"><img src="Menu\8ec98005-9156-4117-87b4-e8e097918265.svg"></a>
 </section>
-<a href="index.htlm">Inicio</a>
 
-<a href="index.html">Nosotros</a>
+<!-- Forma de pago -->
+<section class="payment">
+    <h2>Formas de pago</h2>
+    <p>Aceptamos los siguientes métodos de pago:</p>
 
- <footer>
-        <p>&copy; 2026 Tienda de Artículos de Segunda Mano</p>
-    </footer>
-<a href="https://time.is/San_José" id="time_is_link" rel="nofollow" style="font-size:14px;color:malgun got;background:#ffffff">Hora local en San José:</a>
-<span id="_z125" style="font-size:14px;color:malgun got;background:#ffffff"></span>
-<script src="//widget.time.is/es.js"></script>
-<script>
-time_is_widget.init({_z125:{id:"San_José_z125", template:"TIME<br>DATE", time_format:"12hours:minutes:secondsAMPM", date_format:"dayname, monthname dnum, year, week"}});
-</script>
+    <div style="display:flex; justify-content:center; gap:30px; flex-wrap:wrap; margin-top:20px;">
+        <div>
+            <svg width="60" height="60" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="2" y="6" width="20" height="12" rx="2" stroke="#1f7a4f" stroke-width="2"/>
+                <circle cx="12" cy="12" r="3" stroke="#1f7a4f" stroke-width="2"/>
+            </svg>
+            <p>Efectivo</p>
+        </div>
 
-    </body>
+        <div>
+            <svg width="60" height="60" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="5" y="2" width="14" height="20" rx="2" stroke="#1f7a4f" stroke-width="2"/>
+                <path d="M9 18h6" stroke="#1f7a4f" stroke-width="2"/>
+                <circle cx="12" cy="15" r="1" fill="#1f7a4f"/>
+            </svg>
+            <p>SINPE Móvil</p>
+        </div>
 
+        <div>
+            <svg width="60" height="60" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3 10h18M5 6h14M5 14h14M5 18h14" stroke="#1f7a4f" stroke-width="2"/>
+            </svg>
+            <p>Transferencia bancaria</p>
+        </div>
+    </div>
+</section>
+
+<section class="contacto" id="contacto">
+    <p>¿Tienes alguna pregunta? Escríbenos:</p>
+    <a href="mailto:rabarcas71@gmail.com">rabarcas71@gmail.com</a>
+</section>
+
+<footer>
+    <p>&copy; 2026 Abarca's Shop · Todos los derechos reservados</p>
+</footer>
+
+</body>
 </html>
